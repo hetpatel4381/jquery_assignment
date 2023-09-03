@@ -1,0 +1,57 @@
+/* Style for the dish container */
+#dishContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Style for individual dish */
+.dish {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dish h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.dish img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.dish p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.buyDishBtn,
+#logOutBtn {
+  background-color: rgb(65, 219, 65);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Style for the "Add Dish" button */
+#addDishBtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+#addDishBtn:hover {
+  background-color: #0056b3;
+}
